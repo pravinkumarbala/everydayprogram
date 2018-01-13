@@ -1,6 +1,7 @@
 package com.everyday.advance;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.Scanner;
 
 public class CompanyDetails {
@@ -23,6 +24,18 @@ public class CompanyDetails {
             companyDetailsArray.add(new Employee(id, fn, ln, sal));
         }
 
+        System.out.println("Array List Elements are");
         System.out.println(companyDetailsArray);
+
+        System.out.println("Enter the string to be searched : ");
+        String searchChar = rd.next();
+
+        for (int i = 0 ; i < empSize ; i++)
+            if(companyDetailsArray.get(i).employeeFirstName.equalsIgnoreCase(searchChar) ||
+                    companyDetailsArray.get(i).employeeLastName.equalsIgnoreCase(searchChar))
+                System.out.println(companyDetailsArray.get(i));
+            else
+                System.out.println("Employee is not present in the array list");
+
     }
 }
