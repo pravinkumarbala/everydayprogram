@@ -28,3 +28,20 @@ public class TreeSetManup {
         System.out.println(linkedHashSet);
     }
 }
+/*
+Enter the length :
+3
+Enter the names on the hashset
+Note: Dummy name while elemented
+Pravin
+Kumar
+Pravin
+[Kumar, Pravin]
+Enter the length :
+Enter the names on the hashset
+Note: Dummy name while elemented
+Pravin
+Kumar
+Pravin
+[Pravin, Kumar]
+*/
