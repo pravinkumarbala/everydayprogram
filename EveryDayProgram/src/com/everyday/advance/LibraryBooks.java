@@ -24,11 +24,12 @@ public class LibraryBooks {
             libraryBookInformation.add(new BookIndex(bookID, bookName, authorName, new SimpleDateFormat(date)));
         }
 
-        //System.out.println(libraryBookInformation);
+        System.out.println(libraryBookInformation);
         for (BookIndex bi: libraryBookInformation) {
             System.out.println(bi.getBookId() + " " + bi.getBookName() + " " + bi.getAuthorName());
         }
 
+        
     }
 }
 
