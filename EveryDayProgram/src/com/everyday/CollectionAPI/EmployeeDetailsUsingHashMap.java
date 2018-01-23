@@ -22,6 +22,7 @@ public class EmployeeDetailsUsingHashMap {
             System.out.println("Emp Name : " + hashMap.get(i));
         }
         System.out.println(hashMap);
+        System.out.println();
     }
 }
 
