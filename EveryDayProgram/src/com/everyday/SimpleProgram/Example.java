@@ -1,4 +1,4 @@
-package com.everyday.SImpleProgram;
+package com.everyday.SimpleProgram;
 
 public class Example {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.everyday.SImpleProgram.ThreadDemos;
+package com.everyday.SimpleProgram.ThreadDemos;
 
 class MyThread extends Thread{
     @Override

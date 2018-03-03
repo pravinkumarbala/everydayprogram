@@ -31,6 +31,7 @@ public class ReversalAlgorithm {
         System.out.println("Enter the rotation range value : ");
         int range = scanner.nextInt();
         leftRotate(arrVal, range);
+        System.out.println("After the rotation");
         for (int i = 0 ; i < size ; i ++ )
             System.out.print(arrVal[i] + " ");
     }

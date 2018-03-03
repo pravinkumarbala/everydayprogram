@@ -1,4 +1,4 @@
-package com.everyday.SImpleProgram.ThreadDemos;
+package com.everyday.SimpleProgram.ThreadDemos;
 
 
 class Mythread extends Thread{
