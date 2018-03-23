@@ -27,6 +27,7 @@ public class CustomerInformation {
     public static void main(String[] args) {
 
         Set<CustomerInformationTemplate> customerContact = new LinkedHashSet<>();
+        //Map<String, Set<CustomerInformationTemplate>> details = new LinkedHashMap<String, Set<CustomerInformationTemplate>>();
         Map<String, CustomerInformationTemplate> details = new LinkedHashMap<String, CustomerInformationTemplate>();
 
         Scanner read = new Scanner(System.in);
@@ -35,15 +36,20 @@ public class CustomerInformation {
         System.out.println("====================");
         for (int i = 0 ; i < 2 ; i ++) {
             System.out.print("First Name : ");
+            //cit.firstName = read.next();
             String firstName = read.next();
             System.out.print("Last Name : ");
+            //cit.lastName = read.next();
             String lastName = read.next();
             System.out.print("Mobile Number : ");
+            //cit.mobileNumber = read.nextLong();
             long mobileNumber = read.nextLong();
             System.out.print("Address : ");
+            //cit.address = read.next();
             String address = read.next();
             CustomerInformationTemplate cit = new CustomerInformationTemplate(firstName, lastName, mobileNumber, address);
             //customerContact.add(cit);
+            //details.put(cit.firstName + cit.lastName, customerContact);
             details.put(cit.firstName + cit.lastName, cit);
         }
         System.out.println(details);
