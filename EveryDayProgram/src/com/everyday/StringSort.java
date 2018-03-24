@@ -23,16 +23,16 @@ public class StringSort {
         System.out.println("=======================================================");
         System.out.print("Array size : ");
         int size = read.nextInt();
-        String[] unsortString = new String[size];
+        String[] unSortString = new String[size];
         System.out.print("Enter the array values : ");
         for (int i = 0; i < size ; i ++)
-            unsortString[i] = read.next();
+            unSortString[i] = read.next();
         System.out.print("Unsorted String : ");
         for (int i = 0 ; i < size ; i ++){
-            System.out.print("\t" + unsortString[i]);
+            System.out.print("\t" + unSortString[i]);
         }
         System.out.print("\n");
-        String[] newlySortedArray = sortedString(unsortString);
+        String[] newlySortedArray = sortedString(unSortString);
         System.out.print("Sorted String Array : ");
         for (String newStringArray : newlySortedArray)
             System.out.print(newStringArray + "\t");
