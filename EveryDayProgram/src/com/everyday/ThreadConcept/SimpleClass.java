@@ -33,7 +33,7 @@ class SecondClass extends Thread{
 }
 
 public class SimpleClass {
-    public static void main(String[] args) throws InterruptedException{
+    public static void main(String[] args) {
         FirstClass t1 = new FirstClass();
         SecondClass t2 = new SecondClass();
         t1.start();

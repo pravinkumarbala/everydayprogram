@@ -32,7 +32,7 @@ public class SummationOfNumbers {
     static int ans;
     static Stack theStack;
 
-    public static void main(String[] args) throws IOException{
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Summation Of Number");
         System.out.println("*******************");
