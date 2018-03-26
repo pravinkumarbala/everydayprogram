@@ -28,7 +28,6 @@ class Calculator extends Thread{
                         System.out.println("Division of two numbers : " + dive);
                         break;
                 case 5: System.out.println("Exit for the system");
-                        this.notify();
                         break;
                 default: System.out.println("Sorry, You have selected wrong option");
                         break;
@@ -71,10 +70,5 @@ public class SimpleThreadConcept {
         System.out.println("#########");
         Calculator cal = new Calculator();
         cal.start();
-        try{
-            cal.wait();
-        }catch (InterruptedException e){
-            System.out.println(e.getMessage());
-        }
     }
 }
