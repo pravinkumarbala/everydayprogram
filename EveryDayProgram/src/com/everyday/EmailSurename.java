@@ -9,7 +9,7 @@ public class EmailSurename {
          InputStreamReader tInputStreamReader = new InputStreamReader(System.in);
          BufferedReader tKeyboard = new BufferedReader(tInputStreamReader);
 
-        System.out.print("Type in an email address ");
+         System.out.print("Type in an email address ");
 
          String tEmail = tKeyboard.readLine();
          int tPositionOfAt = tEmail.indexOf("@");
