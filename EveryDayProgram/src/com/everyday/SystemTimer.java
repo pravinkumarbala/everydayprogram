@@ -6,8 +6,7 @@ import java.util.TimerTask;
 
 class SystemTimer {
     SimpleDateFormat sdf = new SimpleDateFormat("hh:mm:ss");
-    public SystemTimer()
-    {
+    public SystemTimer() {
         final Timer tmr = new Timer();
         tmr.scheduleAtFixedRate(new TimerTask() {
             public void run() {
